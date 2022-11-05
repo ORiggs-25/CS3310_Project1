@@ -1,0 +1,53 @@
+C:\Users\ratna\.jdks\openjdk-19.0.1\bin\java.exe "-javaagent:C:\Users\ratna\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\New folder\IntelliJ IDEA Community Edition 2022.2.3\lib\idea_rt.jar=58740:C:\Users\ratna\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\New folder\IntelliJ IDEA Community Edition 2022.2.3\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\ratna\IdeaProjects\Project1_CS3310\out\production\Project1_CS3310 Main
+Enter n:    8
+Enter the elements of matrix A:
+1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1
+Enter the elements of matrix B:
+2 2 2 2 2 2 2 2
+2 2 2 2 2 2 2 2
+2 2 2 2 2 2 2 2
+2 2 2 2 2 2 2 2
+2 2 2 2 2 2 2 2
+2 2 2 2 2 2 2 2
+2 2 2 2 2 2 2 2
+2 2 2 2 2 2 2 2
+
+ Matrix C using Classical Multiplication:
+15 16 16 16 16 16 16 16
+15 16 16 16 16 16 16 16
+15 16 16 16 16 16 16 16
+15 16 16 16 16 16 16 16
+15 16 16 16 16 16 16 16
+15 16 16 16 16 16 16 16
+15 16 16 16 16 16 16 16
+15 16 16 16 16 16 16 16
+
+ Matrix C using Naive Divide and Conquer:
+15 16 16 16 16 16 16 16
+15 16 16 16 16 16 16 16
+15 16 16 16 16 16 16 16
+15 16 16 16 16 16 16 16
+15 16 16 16 16 16 16 16
+15 16 16 16 16 16 16 16
+15 16 16 16 16 16 16 16
+15 16 16 16 16 16 16 16
+
+ Matrix C using Strassen_Matrix:
+15 15 15 15 15 15 15 15
+16 16 16 16 16 16 16 16
+16 16 46 46 16 16 46 46
+16 16 48 48 16 16 48 48
+16 16 16 16 46 46 46 46
+16 16 16 16 48 48 48 48
+16 16 48 48 48 48 140 140
+16 16 48 48 48 48 144 144
+
+Process finished with exit code 0
