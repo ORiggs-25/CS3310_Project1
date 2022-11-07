@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        // This is the user takes user input
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter n:    ");
@@ -25,14 +26,16 @@ public class Main {
             }
         }
 
-        int matrix_C[][] = new int [n][n];
-        display_matrix("Classical Multiplication", Classical_Matrix_Multiplication.matrixMultiply(matrix_A, matrix_B, n), n);
-        display_matrix("Naive Divide and Conquer", Classical_Matrix_Multiplication.matrixMultiply(matrix_A, matrix_B, n),n);
-        display_matrix("Strassen_Matrix", Strassen_Matrix.strassen_multiplication(matrix_A,matrix_B, matrix_C, n),n);
+        int matrix_C[][] = new int[n][n];
+        display_matrix("Classical Multiplication",
+                Classical_Matrix_Multiplication.matrixMultiply(matrix_A, matrix_B, n), n);
+        display_matrix("Naive Divide and Conquer",
+                Classical_Matrix_Multiplication.matrixMultiply(matrix_A, matrix_B, n), n);
+        display_matrix("Strassen_Matrix", Strassen_Matrix.strassen_multiplication(matrix_A, matrix_B, matrix_C, n), n);
 
     }
 
-    public static void display_matrix (String methods_name, int matrixC[][], int n){
+    public static void display_matrix(String methods_name, int matrixC[][], int n) {
         int i, j;
         System.out.println("\n Matrix C using " + methods_name + ":");
         for (i = 0; i < n; i++) {
